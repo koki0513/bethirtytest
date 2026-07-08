@@ -87,3 +87,13 @@ ZMKにした後は、Vialの `QK_BOOT` は使えません。
 - デフォルトレイヤー右下2キーの `&bootloader` / `&sys_reset`
 
 右下2キーは、Vial側の `HOME` / `END` ではなく、復旧用キーを優先しています。
+
+## keymap-drawer
+
+CLine46プロジェクトと同じ流れで、keymap-drawer用のGitHub Actionsを追加しています。
+
+手動実行する場合は、GitHub Actionsから `Draw Keymap` を選んで実行します。
+`.keymap` をpushした場合も自動で実行されます。
+
+物理レイアウトは `config/bethirty_ortho.json` に入れています。
+出力先は `keymap-drawer/` です。

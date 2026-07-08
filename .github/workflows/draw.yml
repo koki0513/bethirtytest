@@ -1,0 +1,22 @@
+name: "Draw Keymap"
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/boards/shields/bethirty_ortho/bethirty_ortho.keymap"
+      - "config/bethirty_ortho.json"
+      - ".github/workflows/draw.yml"
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@f9cf9d3677368a7fb1dc505c51b8156fafa66fe2
+    permissions:
+      contents: write
+    with:
+      commit_message: "[Draw] ${{ github.event.head_commit.message || 'Update keymap drawing' }}"
+      amend_commit: false
+      keymap_patterns: "config/boards/shields/bethirty_ortho/bethirty_ortho.keymap"
+      json_path: "config"
+      output_folder: "keymap-drawer"
+      destination: "both"

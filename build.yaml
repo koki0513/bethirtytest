@@ -1,3 +1,3 @@
 include:
-  - board: rpi_pico
+  - board: "rpi_pico//zmk"
     shield: bethirty_ortho

@@ -1,0 +1,3 @@
+include:
+  - board: rpi_pico
+    shield: bethirty_ortho

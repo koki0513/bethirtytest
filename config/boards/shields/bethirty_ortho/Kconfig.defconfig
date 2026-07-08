@@ -1,0 +1,6 @@
+if SHIELD_BETHIRTY_ORTHO
+
+config ZMK_KEYBOARD_NAME
+    default "BeThirty O39"
+
+endif

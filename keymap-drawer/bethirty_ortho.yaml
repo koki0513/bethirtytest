@@ -45,32 +45,32 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''''
-  - Sft+'
+  - Sft+7
+  - Sft+2
   - '7'
   - '8'
   - '9'
-  - '='
-  - '['
+  - Sft+-
   - ']'
+  - \
+  - Sft+8
   - Sft+9
-  - Sft+0
-  - '`'
+  - Sft+[
   - '-'
   - '4'
   - '5'
   - '6'
-  - Sft+;
-  - Sft+[
+  - ''''
   - Sft+]
+  - Sft+\
   - Sft+,
   - Sft+.
-  - Sft+`
+  - Sft+=
   - Sft+INT RO
   - '1'
   - '2'
   - '3'
-  - {t: '8', h: LSHIFT}
+  - {t: Sft+', h: LSHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,10 +127,10 @@ layers:
   - Gui+R
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+7
+  - Sft+6
+  - Sft+'
   - Sft+8
-  - Sft+9
-  - Sft+=
+  - Sft+;
   - {t: ▽, type: trans}
   - Gui+Sft+S
   - {t: ▽, type: trans}
@@ -139,18 +139,18 @@ layers:
   - {t: ▽, type: trans}
   - Sft+4
   - Sft+5
-  - Sft+6
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+V
   - {t: ▽, type: trans}
-  - \
+  - INT RO
   - Sft+1
-  - Sft+2
+  - '['
   - Sft+3
-  - Sft+\
+  - Sft+INT YEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -291,10 +291,10 @@ combos:
   k: Sft+TAB
   l: [default]
 - p: [0, 10]
-  k: Sft+7
+  k: Sft+6
   l: [default]
 - p: [10, 20]
-  k: '`'
+  k: Sft+\
   l: [default]
 - p: [1, 11]
   k: Sft+1
@@ -312,61 +312,61 @@ combos:
   k: '-'
   l: [default]
 - p: [13, 23]
-  k: '='
+  k: Sft+-
   l: [default]
 - p: [4, 14]
-  k: Sft+`
+  k: Sft+;
   l: [default]
 - p: [14, 24]
   k: Sft+5
   l: [default]
 - p: [5, 15]
-  k: Sft+'
+  k: \
   l: [default]
 - p: [15, 25]
-  k: ''''
+  k: Sft+7
   l: [default]
 - p: [6, 16]
   k: ;
   l: [default]
 - p: [16, 26]
-  k: Sft+;
+  k: ''''
   l: [default]
 - p: [7, 17]
-  k: Sft+=
+  k: Sft+;
   l: [default]
 - p: [17, 27]
-  k: Sft+8
+  k: Sft+'
   l: [default]
 - p: [8, 18]
-  k: Sft+2
+  k: \
   l: [default]
 - p: [18, 28]
   k: Sft+3
   l: [default]
 - p: [9, 19]
-  k: Sft+\
+  k: Sft+INT YEN
   l: [default]
 - p: [19, 29]
-  k: \
+  k: INT RO
   l: [default]
 - p: [2, 3]
-  k: '['
+  k: \
   l: [default]
 - p: [12, 13]
-  k: Sft+9
+  k: Sft+8
   l: [default]
 - p: [22, 23]
-  k: Sft+[
+  k: Sft+\
   l: [default]
 - p: [6, 7]
-  k: ']'
+  k: \
   l: [default]
 - p: [16, 17]
-  k: Sft+0
+  k: Sft+9
   l: [default]
 - p: [26, 27]
-  k: Sft+]
+  k: Sft+\
   l: [default]
 - p: [13, 34]
   k: LANG2

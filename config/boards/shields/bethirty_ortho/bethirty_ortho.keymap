@@ -42,14 +42,14 @@
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <0 10>;
-            bindings = <&kp LS(N7)>;
+            bindings = <&kp LS(N6)>;
         };
 
         combo_a_z_grave {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <10 20>;
-            bindings = <&kp GRAVE>;
+            bindings = <&kp LS(BACKSLASH)>;
         };
 
         combo_w_s_exclamation {
@@ -91,14 +91,14 @@
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <13 23>;
-            bindings = <&kp EQUAL>;
+            bindings = <&kp LS(MINUS)>;
         };
 
         combo_t_g_tilde {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <4 14>;
-            bindings = <&kp LS(GRAVE)>;
+            bindings = <&kp LS(SEMI)>;
         };
 
         combo_g_b_percent {
@@ -112,14 +112,14 @@
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <5 15>;
-            bindings = <&kp LS(SINGLE_QUOTE)>;
+            bindings = <&kp BACKSLASH>;
         };
 
         combo_h_n_single_quote {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <15 25>;
-            bindings = <&kp SINGLE_QUOTE>;
+            bindings = <&kp LS(N7)>;
         };
 
         combo_u_j_semicolon {
@@ -133,28 +133,28 @@
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <16 26>;
-            bindings = <&kp LS(SEMI)>;
+            bindings = <&kp SINGLE_QUOTE>;
         };
 
         combo_i_k_plus {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <7 17>;
-            bindings = <&kp LS(EQUAL)>;
+            bindings = <&kp LS(SEMI)>;
         };
 
         combo_k_comma_asterisk {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <17 27>;
-            bindings = <&kp LS(N8)>;
+            bindings = <&kp LS(SINGLE_QUOTE)>;
         };
 
         combo_o_l_at {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <8 18>;
-            bindings = <&kp LS(N2)>;
+            bindings = <&kp BACKSLASH>;
         };
 
         combo_l_dot_hash {
@@ -168,56 +168,56 @@
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <9 19>;
-            bindings = <&kp LS(BACKSLASH)>;
+            bindings = <&kp LS(INT_YEN)>;
         };
 
         combo_semi_slash_backslash {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <19 29>;
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp INT_RO>;
         };
 
         combo_e_r_left_bracket {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <2 3>;
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp BACKSLASH>;
         };
 
         combo_d_f_left_paren {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <12 13>;
-            bindings = <&kp LS(N9)>;
+            bindings = <&kp LS(N8)>;
         };
 
         combo_c_v_left_brace {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <22 23>;
-            bindings = <&kp LS(LEFT_BRACKET)>;
+            bindings = <&kp LS(BACKSLASH)>;
         };
 
         combo_u_i_right_bracket {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <6 7>;
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp BACKSLASH>;
         };
 
         combo_j_k_right_paren {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <16 17>;
-            bindings = <&kp LS(N0)>;
+            bindings = <&kp LS(N9)>;
         };
 
         combo_m_comma_right_brace {
             timeout-ms = <40>;
             layers = <0>;
             key-positions = <26 27>;
-            bindings = <&kp LS(RIGHT_BRACKET)>;
+            bindings = <&kp LS(BACKSLASH)>;
         };
 
         combo_f_enter_lang2 {
@@ -306,9 +306,9 @@
 
         layer_1 {
             bindings = <
-                &trans               &trans               &trans               &trans               &kp SINGLE_QUOTE     &kp LS(SINGLE_QUOTE) &kp N7               &kp N8               &kp N9               &kp EQUAL
-                &kp LEFT_BRACKET     &kp RIGHT_BRACKET    &kp LS(N9)           &kp LS(N0)           &kp GRAVE            &kp MINUS            &kp N4               &kp N5               &kp N6               &kp LS(SEMI)
-                &kp LS(LEFT_BRACKET) &kp LS(RIGHT_BRACKET) &kp LS(COMMA)        &kp LS(DOT)          &kp LS(GRAVE)        &kp LS(INT_RO)       &kp N1               &kp N2               &kp N3               &mt LSHIFT N8
+                &trans               &trans               &trans               &trans               &kp LS(N7)           &kp LS(N2)           &kp N7               &kp N8               &kp N9               &kp LS(MINUS)
+                &kp RIGHT_BRACKET    &kp BACKSLASH        &kp LS(N8)           &kp LS(N9)           &kp LS(LEFT_BRACKET) &kp MINUS            &kp N4               &kp N5               &kp N6               &kp SINGLE_QUOTE
+                &kp LS(RIGHT_BRACKET) &kp LS(BACKSLASH)   &kp LS(COMMA)        &kp LS(DOT)          &kp LS(EQUAL)        &kp LS(INT_RO)       &kp N1               &kp N2               &kp N3               &mt LSHIFT LS(SINGLE_QUOTE)
                 &trans               &trans               &trans               &trans               &trans               &kp N0               &trans               &trans               &trans
             >;
         };
@@ -324,9 +324,9 @@
 
         layer_3 {
             bindings = <
-                &trans               &trans               &trans               &kp LG(R)            &trans               &trans               &kp LS(N7)           &kp LS(N8)           &kp LS(N9)           &kp LS(EQUAL)
-                &trans               &kp LG(LS(S))        &trans               &kp LC(LS(F))        &trans               &trans               &kp LS(N4)           &kp LS(N5)           &kp LS(N6)           &trans
-                &trans               &trans               &trans               &kp LG(V)            &trans               &kp BACKSLASH        &kp LS(N1)           &kp LS(N2)           &kp LS(N3)           &kp LS(BACKSLASH)
+                &trans               &trans               &trans               &kp LG(R)            &trans               &trans               &kp LS(N6)           &kp LS(SINGLE_QUOTE) &kp LS(N8)           &kp LS(SEMI)
+                &trans               &kp LG(LS(S))        &trans               &kp LC(LS(F))        &trans               &trans               &kp LS(N4)           &kp LS(N5)           &kp EQUAL            &trans
+                &trans               &trans               &trans               &kp LG(V)            &trans               &kp INT_RO           &kp LS(N1)           &kp LEFT_BRACKET     &kp LS(N3)           &kp LS(INT_YEN)
                 &trans               &trans               &trans               &trans               &trans               &trans               &trans               &trans               &trans
             >;
         };
